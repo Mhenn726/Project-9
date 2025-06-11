@@ -1,0 +1,209 @@
+/* Student Name: Marie Henning */
+/* Project 2 - styles.css */
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+    
+body:before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('Wallpaper 4.jpg');
+        background-size: cover;
+        background-position: center;
+        opacity: .70;
+        z-index: -1;
+}
+img {
+        max-width: 250px;
+        display: block;
+        margin: auto;
+        border: 7px solid white;
+        border-radius: 50%;
+}
+
+.boat {
+        max-width: 700px;
+        object-fit: contain;
+        border-radius: 0;
+        border-color: rgb(222, 129, 129);
+        border: 15px;
+        box-shadow: 0 2px 10px rgb(222, 129, 129);
+}
+
+.boat:hover {
+        color: rgb(255, 255, 255);
+        transform: translatey(-5px)
+}
+
+.sail {
+        max-width: 700px;
+        object-fit: contain;
+        border-radius: 0;
+        border-color: rgb(222, 129, 129);
+        border: 15px;
+        box-shadow: 0 2px 10px rgb(222, 129, 129);
+}
+
+.sail:hover {
+        color: rgb(255, 255, 255);
+        transform: translatey(-5px)
+}
+
+.wave {
+        max-width: 700px;
+        object-fit: contain;
+        border-radius: 0;
+        border-color: rgb(222, 129, 129);
+        border: 15px;
+        box-shadow: 0 2px 10px rgb(222, 129, 129);
+} 
+
+.wave:hover {
+        color: rgb(255, 255, 255);
+        transform: translatey(-5px)
+}
+
+.bird {
+        max-width: 700px;
+        object-fit: contain;
+        border-radius: 0;
+        border-color: rgb(222, 129, 129);
+        border: 15px;
+        box-shadow: 0 2px 10px rgb(222, 129, 129); 
+}
+
+.bird:hover {
+        color: rgb(255, 255, 255);
+        transform: translatey(-5px)
+}
+
+.boatdrawing {
+        max-width: 700px;
+        object-fit: contain;
+        border-radius: 0;
+        border-color: rgb(222, 129, 129);
+        border: 15px;
+        box-shadow: 0 2px 10px rgb(222, 129, 129);
+}
+
+h1 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+h2 {
+        background-color: white;
+        margin-top: 30px;
+        box-shadow: 0 2px 5px rgb(222, 129, 129);
+        border-radius: 8px;
+}
+
+h3 {
+        margin-top: 30px;
+        
+
+}
+
+h4 {
+        font-size: 16px;
+        color: rgb(92, 24, 40);
+        text-align: left;
+}
+
+a {
+        color: rgb(148, 84, 84);
+}
+
+p {
+       font-size: 18px;
+}
+
+hr {
+        height: 2px;          
+        width: 100%;           
+        background-color: rgb(165, 113, 143);
+        border: none; 
+        opacity: .50;
+}
+ul {
+        text-align: left;
+        list-style-type: none;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        border: 2px solid white;
+        padding: 8px 15px;
+        border-radius: 20px;
+        margin-bottom: 5px;
+        background-color: rgb(247, 200, 208);
+        transition: color 0.2s ease, transform 0.2s ease;
+}
+
+li {
+        border: 2px solid white;
+        padding: 8px 15px;
+        border-radius: 20px;
+        margin-bottom: 5px;
+        transition: color 0.2s ease, transform 0.2s ease;
+} 
+
+footer {
+    background-color: rgba(255, 255, 255, 0.357);
+    text-align: center;
+    box-shadow: 0 2px 5px plum;
+}
+
+.container {
+        display:flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        border: 10px rgb(0, 0, 0);
+        border-radius: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        padding: 13px 15px;
+        box-shadow: 0 2px 10px rgb(222, 129, 129);
+        background-color: white;
+        
+}
+
+.block {
+        flex: 1 1 100px;
+        height: 80px;
+        border-radius: 20px;
+        color: rgb(148, 84, 84);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 8px 15px;
+        transition: color 0.5s ease, transform 0.5s ease;
+
+}
+
+.block:hover {
+        color: rgb(255, 255, 255);
+        transform: translateX(5px)
+}
+
+section {
+  margin-bottom: 40px;
+}
