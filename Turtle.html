@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marie Henning - About Me</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+           <h1>Turtle Project</h1>
+        </header>
+
+        <section>
+            <div class="container">
+                <h1>About the Project</h1>
+                <hr>
+                    <h4>This project is about creating a graphical scene using Python’s Turtle graphics module. I used multiple functions (draw_boat, draw_sail, draw_waves, and draw_bird) in order to create a scene depicting a boat floating in the ocean. I refactored these functions into simplier codes by looping the original code to create shapes such as a rectange, triangle, and half-circles to create the waves. The function "for _ i in range()" is the code responsible for creating the loop.</h4>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h1>Sample Code</h1>
+                <hr>
+                    <h4>The first image below creates a boat shape using a looped function to draw a rectangle. The function directs turtle(t) to create the shape of the boat by looping two sides of the rectangle in the function "range(2)". Two of the images below use the looped funtion "range()" with the number inside the parentheses being how many times it will loop. The draw_bird function uses "for angle in ()" instead of "range()" because this function draws the loop of the birds in different positions. The draw_sail function does not use a looped function because it creates a triangle and requires no refactoring. Description of draw_boat looped function:</h4>
+                    <ol>
+                        <li>1. t.forward(200): Turtle moves forward 200 units</li>
+                        <li>2. t.left(90): Turtle turns 90° left</li>
+                        <li>t.forward(60): Turtle moves forward 60 units</li>
+                        <li>t.left(90): Turtle turns left again to get ready for next side</li>
+                     </ol>
+                     
+                        <img src="Boat_Function.jpg" alt="Boat_Function" class="boat">
+                        <img src="Sail_Function.jpg" alt="Sail_Function" class="sail">
+                        <img src="Wave_Function.jpg" alt="Wave_Function" class="wave">
+                        <img src="Bird_Function.jpg" alt="Bird_Function" class="bird">
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h1>Final Code</h1>
+                <hr>
+                    <h4>Here's the completed turtle graphics scene featuring a boat floating on top of blue waves with birds flying in the distance.</h4>
+                    <img src="Boat.jpg" alt="Boat" class="boatdrawing">
+                    <h4>The scene combines multiple shapes created from basic turtle graphics functions.  The boat uses a rectangle and triangle, while the waves and birds are made from repeating half-circles and angled lines in varrying positions. This scene represents basic understanding of utilizing turtle programming to create a colorful digital drawing. </h4>  
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
